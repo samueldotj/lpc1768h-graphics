@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="usb_glcd" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\usb_glcd.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\usb_glcd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mthumb" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-mcpu=cortex-m3" />
+			<Add directory="..\LPC17xx\Drivers\include" />
+			<Add directory="..\LPC17xx\Core\CM3\DeviceSupport\NXP\LPC17xx" />
+			<Add directory="..\LPC17xx\Core\CM3\CoreSupport" />
+			<Add directory="C:\Program Files (x86)\CodeSourcery\Sourcery G++ Lite\arm-none-eabi\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-T ldscript_rom_gnu.ld" />
+			<Add library="..\LPC17xx\bin\Debug\libLPC17xx.a" />
+			<Add library="C:\Program Files (x86)\CodeSourcery\Sourcery G++ Lite\lib\gcc\arm-none-eabi\4.5.1\libgcc.a" />
+			<Add library="C:\Program Files (x86)\CodeSourcery\Sourcery G++ Lite\arm-none-eabi\lib\libcs3.a" />
+			<Add library="C:\Program Files (x86)\CodeSourcery\Sourcery G++ Lite\arm-none-eabi\lib\libg.a" />
+			<Add directory="..\LPC17xx\bin\Debug" />
+		</Linker>
+		<Unit filename="arial8.h" />
+		<Unit filename="font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="font.h" />
+		<Unit filename="glcd.h" />
+		<Unit filename="lcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ldscript_ram_gnu.ld" />
+		<Unit filename="ldscript_rom_gnu.ld" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="system8.h" />
+		<Unit filename="time24.h" />
+		<Unit filename="usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="usb.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="3333" additional_cmds="b main&#x0A;monitor reset&#x0A;" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

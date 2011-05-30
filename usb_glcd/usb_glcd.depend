@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1306571274 source:d:\sam\projects\arm\usb_glcd\main.c
+	<lpc_types.h>
+	<LPC17xx.h>
+	<cs3.h>
+	<string.h>
+	"usb.h"
+	"glcd.h"
+	"font.h"
+	"time24.h"
+	"system8.h"
+	"arial8.h"
+
+1282727924 d:\sam\projects\arm\lpc17xx\drivers\include\lpc_types.h
+	<stdint.h>
+
+1282727906 d:\sam\projects\arm\lpc17xx\core\cm3\devicesupport\nxp\lpc17xx\lpc17xx.h
+	"core_cm3.h"
+	"system_LPC17xx.h"
+
+1295256576 d:\sam\projects\arm\lpc17xx\core\cm3\coresupport\core_cm3.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1295849780 d:\sam\projects\arm\lpc17xx\core\cm3\coresupport\core_cminstr.h
+	<intrinsics.h>
+
+1295849780 d:\sam\projects\arm\lpc17xx\core\cm3\coresupport\core_cmfunc.h
+	<intrinsics.h>
+
+1282727906 d:\sam\projects\arm\lpc17xx\core\cm3\devicesupport\nxp\lpc17xx\system_lpc17xx.h
+	<stdint.h>
+
+1306602347 source:d:\sam\projects\arm\usb_glcd\lcd.c
+	<lpc_types.h>
+	<LPC17xx.h>
+
+1306122043 d:\sam\projects\arm\usb_glcd\usb.h
+	<lpc17xx.h>
+
+1306122439 d:\sam\projects\arm\usb_glcd\glcd.h
+	<lpc_types.h>
+
+1306122823 d:\sam\projects\arm\usb_glcd\font.h
+	<lpc_types.h>
+
+1306122439 d:\sam\projects\arm\usb_glcd\time24.h
+
+1306122439 d:\sam\projects\arm\usb_glcd\system8.h
+
+1306122834 d:\sam\projects\arm\usb_glcd\arial8.h
+
+1306123000 source:d:\sam\projects\arm\usb_glcd\usb.c
+	"usb.h"
+
+1306602164 source:d:\sam\projects\arm\usb_glcd\font.c
+	<lpc_types.h>
+	"font.h"
+	"glcd.h"
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\stdint.h
+	<limits.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\limits.h
+	<newlib.h>
+	"_ansi.h"
+	<sys/config.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\newlib.h
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\_ansi.h
+	<newlib.h>
+	<sys/config.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\config.h
+	<machine/ieeefp.h>
+	<sys/features.h>
+	<cygwin/config.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\machine\ieeefp.h
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\features.h
+
+1303334160 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\cs3.h
+	<stddef.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\string.h
+	"_ansi.h"
+	<sys/reent.h>
+	<stddef.h>
+	<sys/string.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\reent.h
+	<_ansi.h>
+	<sys/_types.h>
+	<sys/types.h>
+	<sys/custom_file.h>
+	<assert.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\_types.h
+	<machine/_types.h>
+	<sys/lock.h>
+	<stddef.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\machine\_types.h
+	<machine/_default_types.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\machine\_default_types.h
+	<limits.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\lock.h
+	<_ansi.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\types.h
+	<_ansi.h>
+	<machine/_types.h>
+	<sys/_types.h>
+	<stddef.h>
+	<machine/types.h>
+	<sys/features.h>
+	<sys/sched.h>
+	<cygwin/types.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\machine\types.h
+	<machine/_types.h>
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\sched.h
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\custom_file.h
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\assert.h
+	"_ansi.h"
+
+1303333342 c:\program files (x86)\codesourcery\sourcery g++ lite\arm-none-eabi\include\sys\string.h
+
