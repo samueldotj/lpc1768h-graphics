@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="LPC17xx.cbp" />
+		<Project filename="../usb_glcd/usb_glcd.cbp" active="1">
+			<Depends filename="LPC17xx.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>
